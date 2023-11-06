@@ -1,0 +1,48 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "telefono": 102013313,
+      "email": "juan@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 2,
+      "nombre": "Karen",
+      "telefono": 138198313,
+      "email": "karen@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 3,
+      "nombre": "Josue",
+      "telefono": 31983913,
+      "email": "josue@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "nombre": "Miguelon",
+      "empresa": "Codigo Con Juan",
+      "email": "miguel@juan.com",
+      "telefono": "319381983",
+      "notas": "Prueba Pruebosa",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "nombre": "Pedro",
+      "telefono": 1398198938,
+      "email": "pedro@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "nombre": "Kevin Carrasco",
+      "empresa": "SIKA PERÚ S.A.C.",
+      "email": "kevinzhito_19@hotmail.com",
+      "telefono": "924587607",
+      "notas": "Una nota notosa",
+      "id": 6
+    }
+  ]
+}

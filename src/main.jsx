@@ -9,6 +9,7 @@ import Layout from "./components/Layout";
 import EditarPage, { loader as editarLoader ,action as editarAction} from "./pages/EditarPage";
 import Index, { loader as clientesLoader } from "./pages/Index";
 import ErrorPage from "./pages/ErrorPage";
+import { action  as EliminarCliente} from "./components/Cliente";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
         action:editarAction,
         errorElement: <ErrorPage></ErrorPage>
       },
+      {
+        path:"/clientes/:clienteId/eliminar",
+        action:EliminarCliente
+      }
     ],
   },
 ]);
